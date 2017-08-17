@@ -1,0 +1,7 @@
+[package]
+name = "plain_hasher"
+version = "0.1.0"
+authors = ["debris <marek.kotewicz@gmail.com>"]
+
+[dependencies]
+crunchy = "0.1"
