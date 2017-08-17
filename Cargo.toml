@@ -1,7 +1,12 @@
 [package]
 name = "plain_hasher"
+description = "Hasher for 32-bit keys."
 version = "0.1.0"
 authors = ["debris <marek.kotewicz@gmail.com>"]
+license = "MIT"
+keywords = ["hash", "hasher"]
+categories = ["no-std"]
+homepage = "https://github.com/debris/plain_hasher"
 
 [dependencies]
 crunchy = "0.1"
