@@ -8,7 +8,7 @@ use test::{Bencher, black_box};
 use plain_hasher::PlainHasher;
 
 #[bench]
-fn u128_mul(b: &mut Bencher) {
+fn write(b: &mut Bencher) {
 	b.iter(|| {
 		let n: u8 = black_box(100);
 		(0..n).fold(PlainHasher::default(), |mut old, new| { 
