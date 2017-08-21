@@ -44,12 +44,12 @@ mod tests {
 	use core::hash::Hasher;
 	use super::PlainHasher;
 
-    #[test]
-    fn it_works() {
+	#[test]
+	fn it_works() {
 		let mut bytes = [32u8; 32];
 		bytes[0] = 15;
 		let mut hasher = PlainHasher::default();
 		hasher.write(&bytes);
 		assert_eq!(hasher.prefix, 47);
-    }
+	}
 }
