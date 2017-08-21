@@ -2,7 +2,7 @@
 name = "plain_hasher"
 description = "Hasher for 32-bit keys."
 version = "0.1.0"
-authors = ["debris <marek.kotewicz@gmail.com>"]
+authors = ["Parity Technologies <admin@parity.io>"]
 license = "MIT"
 keywords = ["hash", "hasher"]
 categories = ["no-std"]
